@@ -1,47 +1,36 @@
 <!DOCTYPE html>
-<html lang=" Pt - Br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Bem Vindo ao Mahtma News Oficial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Mahatma News</title>
 </head>
 <body>
-    <style>
-        .cent{
-        text-align: center;
-        }
-        body{
-            background-color: white;
-        }
-        .coluna{
-          float: left;
-          width: 33.33%;
-        }
-
-        .row{
-          clear: both;
-          display: table;
-        }
-        th, td{
-          border: 1px solid rgb(0, 0, 0);
-          padding: 10px;
-
-        }
-        
-    </style>
-    <header>
-        <nav>
-          <a class="logo" href="/"><img src="Site da Escola Oficial para ser lançado/Brasão CCM.png" height="19%" width="19%"></a>
-          </div>
-          <ul class="nav-list">
-            <li><a href="#">--</a></li>
-            <li><a href="#">--</a></li>
-            <li><a href="#">--</a></li>
-            <li><a href="#">--</a></li>
-            <li><a href="#">--</a></li>
-            <li><a href="#">--</a></li>
+    <header class="cabecalho">
+        <div class="botao_cabecalho">
+          <input type="checkbox" id="menu" class="botao_cabecalho_1">
+          <label for="menu">
+          <a href="#"> <img class="imagem_cabecalho" src="img/menu.svg" alt="Menu" width="40px"> </a>
+          </label>
+          <ul class="lista_menu">
+            <li class="item_lista_menu"> <a href="#" class="link_lista_menu"> Notícias</a></li>
+            <li class="item_lista_menu"> <a href="#" class="link_lista_menu"> Colégio</a></li>
+            <li class="item_lista_menu"> <a href="#" class="link_lista_menu"> Eventos</a></li>
+            <li class="item_lista_menu"> <a href="#" class="link_lista_menu"> Matrículas</a></li>
+            <li class="item_lista_menu"> <a href="#" class="link_lista_menu"> Projetos</a></li>
           </ul>
-        </nav>
-      </header>
+          
+        </div>
+        <div>
+          <a href="#"> <img class="imagem_cabecalho" src="img/perfil.svg" alt="Login do usuário" width="50px"> </a>
+          <a href="#"> <img class="imagem_cabecalho" src="img/logo_colegio_ImgID1.png" alt="Logo do CCM" width="50px"> </a>
+          
+        </div>
+
+    </header>
+    
+</body>
+</html>
