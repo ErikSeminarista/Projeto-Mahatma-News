@@ -1,51 +1,39 @@
-Body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  a {
-    color: #fff;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  
-  a:hover {
-    opacity: 0.7;
-  }
-  
-  .logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin-top: 8px; /*Afasta a Logo da Margem*/
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Times New Roman';
-    background: #04234b; /*Muda a cor da Home*/
-    height: 11vh; /*Muda a espessura da home*/
-  }
-  
-  .nav-list {
-    list-style: none;
-    display: flex;
-  }
-  
-  .nav-list li {
-    letter-spacing: 5px;
-    margin-left: 40px;
-  }
-  
-  .mobile-menu {
-    display: none;
-    cursor: pointer;
-  }
-  
-  .nav-list{
-    font-family: 'Times New Roman';
-  }
+.cabecalho{
+   background-color: #04234b;
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+   position: relative;
+}
 
-  
+.botao_cabecalho{
+    display: flex;
+    align-items: center;
+    
+}
+.imagem_cabecalho{
+    padding: 1em;
+}
+.bannerprincipal{
+    text-align: center;
+    margin-top: -10%;
+
+}
+.lista_menu{
+    display: none;
+}
+.botao_cabecalho_1:checked ~ .lista_menu{
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: #04234b;
+    width: 60vw;
+}
+.item_lista_menu{
+    padding: 2em;
+}
+.link_lista_menu{
+    color: white;
+}
+
+
