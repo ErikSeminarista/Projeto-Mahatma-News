@@ -32,13 +32,29 @@
             </ul>
         </div>
         <div class="lista_cabecalho">
-            <ul >
-            <a class="link_lista" href="noticias.html">Notícias</a>
-            <a class="link_lista" href="http://www.consultaescolas.pr.gov.br/consultaescolas-java/pages/templates/initial2.jsf;jsessionid=1-3F7SBHcLsbUMhL1tHJn6_Pqys25uRwX8ph1kEj.sseed75003?windowId=7b4&codigoEstab=1670&codigoMunicipio=950">Colégio</a>
-            <a class="link_lista" href="desenvolvimento.html">Eventos</a>
-            <a class="link_lista" href="desenvolvimento.html">Matrículas</a>
-            <a class="link_lista" href="desenvolvimento.html">Projetos</a>
-          </ul>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./noticias.html">Notícias</a>
+                    </li>
+                    <li>
+                        <a href="./eventos.html">Eventos</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="">Colégio</a>
+        
+                        <div class="dropdown-menu">
+                            <a href="./cardapio_escolar.html">Cardápio Escolar</a>
+                            <a href="./calendario_online.html">Calendário Online</a>
+                            <a href="http://www.urimozart.seed.pr.gov.br/redeescola/escolas/8/2860/274/arquivos/File/2021/manual_do_estudante_do_ccc_pr.pdf">Normas do Colégio</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./matricula.html">Matrículas</a>
+                        <a href="./index.html">Home</a>
+                    </li>
+                </ul>
+            </nav>
         </div> 
         <div class="botao_do_cabeçalho">
             <a href="./login.html"><img class="imagem_cabeçalho" src="img/perfil.svg" alt="Perfil de Login" width="50px"></a>
@@ -51,9 +67,9 @@
         </div>
         <div class="text_login">
             <div><h3 class="text_login1">E-mail</h3></div>
-            <input class="input_texto" type="text" placeholder="e-mail">
+            <input class="input_texto" type="text" placeholder="E-mail">
             <div><h3 class="text_login1">Senha</h3></div>
-            <input class="input_texto" type="password" placeholder="senha">
+            <input class="input_texto" type="password" placeholder="Senha">
         </div>
         <div class="botao_loguin">
             <button class="botao_loguin_1" >Login</button>

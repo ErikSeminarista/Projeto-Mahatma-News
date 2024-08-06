@@ -66,7 +66,7 @@
 
  .grid{
      
-     font-family: 'Alumni Sans', sans-serif;
+     font-family: 'Times New Roman', Times, serif;
      grid-template-columns: repeat(8, 1fr);
      grid-template-rows: repeat(10, 1fr);
      max-height: 99vh;
@@ -263,9 +263,9 @@
         align-items: center;
     }
     .lateral_esquerda{
-        grid-column: 1/2;
-        grid-row: 3;
         width: 200px;
+        text-align: center;
+        align-items: center;
     }
     
     .titulo_noticias{
@@ -415,5 +415,36 @@
     }
     .link_finalizacao{
         display: none;
+    }
+    nav li{
+        display: inline-block;
+    }
+    
+    nav li a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+    
+    nav li a:hover{
+        background-color: #04234B;
+    }
+    
+    .dropdown-menu{
+        position: absolute;
+        box-shadow: 0 0 2px black;
+        display: none;
+    }
+    
+    .dropdown-menu a{
+        display: block;
+        color: white;
+    }
+    
+    .dropdown:hover .dropdown-menu{
+        display: block;
     }
     }

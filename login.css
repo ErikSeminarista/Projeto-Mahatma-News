@@ -198,7 +198,7 @@
         padding: 1em;
      }
      .text_login1{
-        text-align: left;
+        margin-left: 83px;
         font-size: 2vw;
         font-family: 'Poppins', sans-serif;
         padding: 0.5em;
@@ -218,5 +218,36 @@
         color: #04234B;  
         width: 20vw;
         
+    }
+    nav li{
+        display: inline-block;
+    }
+    
+    nav li a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+    
+    nav li a:hover{
+        background-color: #04234B;
+    }
+    
+    .dropdown-menu{
+        position: absolute;
+        box-shadow: 0 0 2px black;
+        display: none;
+    }
+    
+    .dropdown-menu a{
+        display: block;
+        color: white;
+    }
+    
+    .dropdown:hover .dropdown-menu{
+        display: block;
     }
 }

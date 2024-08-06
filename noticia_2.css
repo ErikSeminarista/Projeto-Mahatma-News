@@ -94,6 +94,7 @@
     grid-column: 2/8;
     font-size: 5vw;
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
 }
 .finalizacao_site{
     grid-row: 10;
@@ -194,7 +195,9 @@
     grid-row: 3;
     font-size: 2.5vw;
     padding: 2em;
-    font-family: 'Poppins', sans-serif;
+    font-family: inherit;
+    text-align: justify;
+    font-size: 150%;
 }
 
  .finalizacao_site_pc{
@@ -231,4 +234,38 @@ display: none;
 .link_finalizacao{
     display: none;
 }
+}
+.paragrafo_noticia_2 span{
+    font-weight: 700;
+}
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+nav li a:hover{
+    background-color: #04234B;
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.dropdown-menu a{
+    display: block;
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
 }
