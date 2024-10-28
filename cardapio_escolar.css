@@ -57,6 +57,9 @@ body {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
 }
+.lista_cabecalho{
+    display: none;
+}
 
 .botao_cabecalho_1.ligado ~ .lista_menu .lista_menu_itens {
     opacity: 1;
@@ -233,8 +236,10 @@ nav li a:hover{
 
 .dropdown-menu{
     position: absolute;
+    top: 100%;
     box-shadow: 0 0 2px black;
     display: none;
+    background-color: #04234B;
 }
 
 .dropdown-menu a{
@@ -244,5 +249,47 @@ nav li a:hover{
 
 .dropdown:hover .dropdown-menu{
     display: block;
+    background-color: #04234B;
 }
+body {
+	font-family: Arial, sans-serif;
+  }
+  
+  #cardapio {
+	width: 80%;
+	margin: 40px auto;
+	border-collapse: collapse;
+    grid-row: 9;
+    grid-column: 1/9;
+  }
+  
+  th, td {
+	border: 1px solid rgb(210, 210, 210);
+	padding: 10px;
+	text-align: center;
+  }
+  
+  th {
+	background-color: #04234B;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  td {
+	vertical-align: middle;
+  }
+  
+  #cardapio tr:nth-child(even) {
+	background-color: #f9f9f9;
+  }
+  .titulo-cardapio{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    grid-row: 7;
+    grid-column: 4/6;
+  }
 }

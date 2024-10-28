@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahatma News</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="cadastramento.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,35 +60,36 @@
             <a href="./index.html"><img class="imagem_cabeçalho" src="img/logo_colegio_ImgID1.png" alt="Logo do Colégio" width="60px"></a>
         </div>
     </header>
-    <div class="grid"> 
+    <head>
+        <style>
+            body{
+                background-color: white;
+            }
+        </style>
+    </head>
+    
         <div class="logo_colegio">
-        <img class="imagem_colegio" src="img/logo_colegio_ImgID1.png" alt="Banner Quem falta faz Falta" >
+        <img class="imagem-colegio" src="img/Brasão Criado + Alunos juntos.svg" alt="Banner Quem falta faz Falta" >
         </div>
+        <div class="grid"> 
         <div class="text_login">
-            <div><h3 class="text_login1">E-mail</h3></div>
-            <input class="input_texto" type="text" placeholder="Ex: pedro@gmail.com">
-            <div><h3 class="text_login1">Senha</h3></div>
-            <input class="input_texto" type="password" placeholder="Digite sua senha">
+            <div><h3 class="text_login1">Nome</h3></div>
+            <input class="input_texto" type="text" placeholder="Ex: Pedro">
+            <div><h3 class="text_login1">Sobrenome</h3></div>
+            <input class="input_texto" type="password" placeholder="Ex: Santos">
+            <div><h3 class="text_login1">Email</h3></div>
+            <input class="input_texto" type="text" placeholder="Ex: pedro.santos@gmail.com">
+            <div><h3 class="text_login1">CGM (Código de Matricula Geral)</h3></div>
+            <input class="input_texto" type="password" placeholder="Ex: 10020307">
+            <div><h3 class="text_login1">Crie sua senha</h3></div>
+            <input class="input_texto" type="text" placeholder="Digite sua senha">
+            <div><h3 class="text_login1">Confirme sua senha</h3></div>
+            <input class="input_texto" type="password" placeholder="Digite sua senha novamente">
         </div>
         <div class="botao_loguin">
-            <button class="botao_loguin_1" >Login</button>
+            <button class="botao_loguin_1" >Cadastrar</button>
         </div>
 
-        <div class="outros-modos">
-            <h2>Ou</h2>
-        <div class="logo-google">
-            <a href="https://accounts.google.com/v3/signin/identifier?hl=pt_BR&ifkv=AXo7B7Wi4_wZR5EGEfqncZZbkdIR8dH9NnoTzugQyjclzTFgrLvKnn8Y95amQVu0OFhFlI6SaZxq&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-502503366%3A1691711101108222"><img src="img/Google.png" width="300px"></a>
-            </div>
-            <div class="logo-facebook">
-                <a href="https://www.facebook.com/?locale=pt_BR"><img src="img/Facebook.png" width="320px"></a>
-            </div>
-        </div>
-
-            
-    
-        <div class="cadastro">
-            <button class="cadastro-linha"><a href="cadastramento.html"><h4>Não possui cadastro ainda? Cadastra-se!</h4></a></button>
-        </div>
     </div>   
     <script>
         function toggleButton() {

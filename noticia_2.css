@@ -55,6 +55,9 @@
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
 }
+.lista_cabecalho{
+    display: none;
+}
 
 .botao_cabecalho_1.ligado ~ .lista_menu .lista_menu_itens {
     opacity: 1;
@@ -257,8 +260,10 @@ nav li a:hover{
 
 .dropdown-menu{
     position: absolute;
+    top: 100%;
     box-shadow: 0 0 2px black;
     display: none;
+    background-color: #04234B;
 }
 
 .dropdown-menu a{
@@ -268,4 +273,5 @@ nav li a:hover{
 
 .dropdown:hover .dropdown-menu{
     display: block;
+    background-color: #04234B;
 }

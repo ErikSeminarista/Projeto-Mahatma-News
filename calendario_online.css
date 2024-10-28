@@ -57,6 +57,9 @@ body {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
 }
+.lista_cabecalho{
+    display: none;
+}
 
 .botao_cabecalho_1.ligado ~ .lista_menu .lista_menu_itens {
     opacity: 1;
@@ -90,7 +93,7 @@ body {
 
 .finalizacao_site {
     grid-row: 10;
-    grid-column: 1/9;
+    grid-column: 2/9;
     padding: 1em;
     font-size: 4vw;
     text-align: center;
@@ -107,15 +110,15 @@ body {
 }
 
 .finalizacao_site_pc{
-    display:none
+    display: none;
 
 }
 .escritas_finalizacao_pc{
-    display:none
+    display:none;
 
 }
 .link_finalizacao_pc{
-    display:none
+    display:none;
 }
 .link_lista{
     display: none;
@@ -124,6 +127,13 @@ body {
     display: none;
 }
 @media screen and (min-width: 768px) {
+    .grid {
+        font-family: 'Alumni Sans', sans-serif;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        max-height: 99vh;
+        display: grid;
+    }
     .botao_cabecalho_1{
         display: none;
     }
@@ -182,14 +192,14 @@ body {
     }
  .finalizacao_site_pc{
     display: ruby;
-    grid-row: 10;
+    grid-row: 12;
     grid-column: 1/5;
     padding: 1em;
     background-color: #04234B;
 }
 .escritas_finalizacao_pc{
     display: ruby;
-    grid-row: 10;
+    grid-row: 12;
     grid-column: 4/9;
     font-size: 1.5vw ;
     color: white;

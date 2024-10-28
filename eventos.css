@@ -9,7 +9,10 @@
 body {
     background-color: white;
 }
-
+.banner_principal img{
+    width: 99vw;
+    text-align: center;
+}
 .botao_do_cabeçalho {
     display: flex;
     align-items: center;
@@ -56,6 +59,9 @@ body {
     padding: 2em;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
+}
+.lista_cabecalho{
+    display: none;
 }
 
 .botao_cabecalho_1.ligado ~ .lista_menu .lista_menu_itens {
@@ -123,6 +129,9 @@ body {
 .logo_1{
     display: none;
 }
+.lista_cabecalho nav{
+    display: none;
+}
 @media screen and (min-width: 768px) {
     .botao_cabecalho_1{
         display: none;
@@ -130,6 +139,9 @@ body {
     *{
         padding: 0;
         margin: 0;
+    }
+    .lista_cabecalho nav{
+        display: block;
     }
     .logo_1{
         display: ruby;
@@ -205,7 +217,9 @@ body {
     grid-row: 1;
     grid-column: 2/6;
     text-align: center;}
-    
+.banner_principal img{
+    width:70vw;
+}
 .link_finalizacao_pc{
     display: ruby;
     text-decoration: none;
@@ -238,8 +252,10 @@ nav li a:hover{
 
 .dropdown-menu{
     position: absolute;
+    top: 100%;
     box-shadow: 0 0 2px black;
     display: none;
+    background-color: #04234B;
 }
 
 .dropdown-menu a{
@@ -249,5 +265,6 @@ nav li a:hover{
 
 .dropdown:hover .dropdown-menu{
     display: block;
+    background-color: #04234B;
 }
 }

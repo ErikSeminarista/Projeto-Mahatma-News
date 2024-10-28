@@ -55,6 +55,9 @@ body{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
 }
+.lista_cabecalho{
+    display: none;
+}
 
 .botao_cabecalho_1.ligado ~ .lista_menu .lista_menu_itens {
     opacity: 1;
@@ -73,16 +76,17 @@ body{
     max-height: 99vh;
     display: grid;
 }
-.bannerprincipal{
-    display: none;
-}
+
 .alunos{
     display: none;
 }
-.banner_principal{
+.bannerprincipal{
     grid-row: 1;
     grid-column: 1/9;
     text-align: center;
+}
+.bannerprincipal img{
+    width: 100%;
 }
 .lista_cabecalho{
     display: none;
@@ -140,7 +144,10 @@ body{
     color: #04234B;
 }
 .cor_botao{
-    background-color: rgb(200, 200, 200);
+    background-color: #04234B;
+    border-radius: 40px;
+    color:#ffffff;
+
 }
 .botao_mais_noticias{
     grid-row: 6;
@@ -148,12 +155,14 @@ body{
     text-align: center;
     align-items: center;
     padding: 0.5em;
+    color:#ffffff;
+
     
 }
 .link_botao_noticias{
      text-decoration: none;
     font-family: 'Poppins', sans-serif;   
-    color:#04234B;
+    color: white;
 }
 .finalizacao_site{
     grid-row: 10;
@@ -198,6 +207,9 @@ display: none;
 .link_finalizacao_pc{
     display: none;
 }
+.lista_cabecalho{
+display: none;
+}
 @media screen and (min-width: 768px) {
     .botao_cabecalho_1{
         display: none;
@@ -240,6 +252,7 @@ display: none;
         justify-content: space-around;
         align-items: center;
         height: 12vh;
+        position: relative;
     }
    .banner_principal{
     grid-row: 7;
@@ -280,9 +293,11 @@ display: none;
     grid-row: 4;
     padding: 3em;
     display: ruby;
+    text-align: center;
+
 }
 .link_noticia_1pc{
-    padding: 2em;
+    padding: 1em;
     grid-column: 5/9;
     grid-row: 4;
     margin-top: 15%;
@@ -300,10 +315,10 @@ display: none;
     grid-row: 5;
     padding: 3em;
     display: ruby;
-
+    text-align: center;
 }
 .link_noticia_2pc{
-    padding: 2em;
+    padding: 1em;
     grid-column: 5/9;
     grid-row: 5;
     margin-top: 15%;
@@ -321,11 +336,12 @@ display: none;
     grid-row: 6;
     padding: 3em;
     display: ruby;
+    text-align: center;
 
 }
 .link_noticia_3pc{
     display: ruby;
-    padding: 2em;
+    padding: 1em;
     grid-column: 5/9;
     grid-row: 6;
     margin-top: 10%;
@@ -354,10 +370,10 @@ display: none;
  .link_botao_noticias{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;   
-    color:#04234B; 
+    color:white; 
     align-items: center;
     text-align: center; 
-    font-size: 2vw;
+    font-size: 1.5vw;
     
  }
  .finalizacao_site_pc{
@@ -406,18 +422,24 @@ nav li a{
 }
 
 nav li a:hover{
-    background-color: #04234B;
+    background-color: #04234B;;
 }
 
 .dropdown-menu{
     position: absolute;
+    top: 100%;
     box-shadow: 0 0 2px black;
     display: none;
+    background-color: #04234B;
 }
-
+.dropdown-menu:hover{
+    background-color: #04234B;
+    
+}
 .dropdown-menu a{
     display: block;
     color: white;
+
 }
 
 .dropdown:hover .dropdown-menu{
