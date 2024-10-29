@@ -223,7 +223,7 @@
     border-radius: 4px;
 }
 
- @media screen and (min-width: 768px) {
+ @media screen and (min-width: 900px) {
     .grid{
      
         font-family: 'Alumni Sans', sans-serif;
@@ -246,10 +246,14 @@
         display: ruby;
     }
     .lista_cabecalho{
+        margin-top: 50px ;
         display: flex;
         justify-content: space-around;
         align-items: center;
         list-style: none;
+    }
+    .lista_cabecalho li{
+        height: 100px;
     }
 .link_lista{
     text-decoration: none;

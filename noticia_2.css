@@ -132,7 +132,7 @@
 .logo_1{
     display: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
     .botao_cabecalho_1{
         display: none;
     }
@@ -147,10 +147,14 @@
         display: ruby;
     }
     .lista_cabecalho{
+        margin-top: 50px ;
         display: flex;
         justify-content: space-around;
         align-items: center;
         list-style: none;
+    }
+    .lista_cabecalho li{
+        height: 100px;
     }
     .link_lista{
         text-decoration: none;
